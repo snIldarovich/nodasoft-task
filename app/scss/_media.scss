@@ -1,0 +1,31 @@
+@media (max-width: 650px) {
+  .main__items,
+  .main__blocks {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__item {
+    height: 40px;
+  }
+  .main__item::before {
+    font-size: 16px;
+  }
+  .main__blocks {
+    padding: 15px;
+    grid-gap: 15px;
+  }
+  .main__block {
+    height: 40px;
+  }
+  .popup-btn {
+    font-size: 16px;
+  }
+  .close-btn:after {
+    font-size: 16px;
+    height: 30px;
+    width: 35px;
+  }
+  .popup-wrapper .popup {
+    font-size: 32px;
+  }
+}
